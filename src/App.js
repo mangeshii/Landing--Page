@@ -1,5 +1,6 @@
 import "./App.css";
 import NavBar from "./components/navbar/nav";
+import FirstPage from "./components/first-page/first-page";
 
 function App() {
     return (
@@ -7,11 +8,15 @@ function App() {
             <section>
                 <NavBar />
 
-                <div>
-                    <div className="wave water wave1"></div>
-                    <div className="wave water wave2"></div>
-                    <div className="wave water wave3"></div>
+                <div className="logo-container">
+                    <h1 className="logo">SYNTRA</h1>
                 </div>
+
+                <div className="main-heading-container">
+                    <h1 className="main-heading">About Us</h1>
+                </div>
+
+                <FirstPage />
             </section>
         </>
     );
