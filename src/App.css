@@ -25,6 +25,5 @@ section {
     position: relative;
     width: 100%;
     height: 65vh;
-    background: linear-gradient(-55deg, #5e0ff3, #008ecc);
-    background-size: 400% 300%;
+    background: linear-gradient(-55deg, #1dabe4, #7313e0);
 }

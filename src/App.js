@@ -1,6 +1,7 @@
 import "./App.css";
 import NavBar from "./components/navbar/nav";
 import FirstPage from "./components/first-page/first-page";
+import SecondPage from "./components/second-page/second-page"
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
 
                 <FirstPage />
             </section>
+            <SecondPage/>
         </>
     );
 }
