@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
 }
-
 section {
     position: relative;
     width: 100%;
-    height: 50vh;
+    height: 65vh;
     background: linear-gradient(-55deg, #5e0ff3, #008ecc);
-    background-size: 400% 400%;
+    background-size: 400% 300%;
+    border:2px solid red
 }
 
 .wave {
