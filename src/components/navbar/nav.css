@@ -1,17 +1,20 @@
-ul {
-    overflow: hidden;
+.collapse{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 3rem;
+    margin-right: 4rem;
+
+}
+.navbar-brand{
+    font-size: 3rem !important;
+    margin-left: 5rem;
+    font-weight: bold;
+    color:white !important
 }
 li {
-    float: right;
-    list-style: none;
-    text-align: center;
-    padding: 14px 16px;
-    color: white;
-    font-size: 20px;
+    color:white !important;
+    padding:2rem !important
 }
-.list4{
-    color:rgb(230, 173, 17)
-}
-.list3, .list2{
-    padding: 16px 16px;
+.list2{
+    color:rgb(230, 173, 17) !important
 }

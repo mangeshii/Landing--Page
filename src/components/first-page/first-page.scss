@@ -14,6 +14,7 @@ $myColor: rgb(230, 173, 17);
     text-align: center;
     @include display-flex();
     color: $myColor;
+    // border:2px solid red
 }
 .main-heading h1{
     font-size: 5rem;
