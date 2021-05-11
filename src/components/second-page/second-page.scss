@@ -1,17 +1,24 @@
-
-.container-fluid{
-    height:auto
+.second-page-wrapper {
+    height: 100%;
 }
-.h-100{
-    font-size: 25px;
+.img-cont {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.text-cont-wrapper {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-
+    align-items: center;
 }
-.sub-cont-left , .sub-cont-right{
-    margin:5% 5% 5% 0%
+.text-cont {
+    margin: 5% 10%;
 }
-.sub-cont-left p,.sub-cont-right p{
-    font-size: 20px;
+.quote-container {
+}
+.quote-text {
+    margin-top: 3%;
+    padding: 3% 7%;
+    border-radius: 20px;
+    background-color: rgb(235, 243, 245);
 }

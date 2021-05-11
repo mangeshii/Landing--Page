@@ -6,18 +6,22 @@ $myColor: rgb(230, 173, 17);
     justify-content: center;
     flex-direction: column;
 }
-*{
-    font-size: 75%;
-}
 .main-heading {
     height: 40vh;
     text-align: center;
     @include display-flex();
     color: $myColor;
-    // border:2px solid red
 }
-.main-heading h1{
-    font-size: 5rem;
+.main-heading h1 {
+    font-size: 4.5vw;
+}
+.main-heading ul li {
+    display: inline;
+    box-sizing: border-box;
+    font-size: 1.5vw;
+    color: white;
+    padding: 2px;
+
 }
 
 .wave {

@@ -1,85 +1,27 @@
 import "./second-page.scss";
+import "bootstrap/dist/css/bootstrap.min.css";
 import officeimg from "./img3.png";
-import "bootstrap/dist/css/bootstrap.css";
 
 const SecondPage = () => {
     return (
         <>
-            <section className="container-fluid">
-
-            </section>
-        </>
-    );
-};
-
-export default SecondPage;
-
-{
-    /* <div className="second-page-wrapper">
-    <div className="left-section">
-        <div className="header">
-            <h1>Syntra Digital Agency</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Et, natus soluta! Sequi quibusdam iure nihil.
-                Soluta laudantium corrupti consequatur molestiae!
-                Lorem ipsum dolor sit amet consectetur, adipisicing
-                elit. Quam, iure.
-            </p>
-        </div>
-        <div className="subheader">
-            <div className="sub-header1">
-                <h3>Expert Team</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Porro doloribus ea earum
-                    debitis totam, recusandae sequi velit non.
-                </p>
-            </div>
-            <div className="sub-header2">
-                <h3>Business Anayltics</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Porro doloribus ea earum
-                    debitis totam, recusandae sequi velit non.
-                </p>
-            </div>
-        </div>
-        <div className="quote-wrapper">
-            <div className="quote-container">
-                <p>
-                    <i>
-                        We build thoughtful identities and
-                        experiences to evalute and empower
-                        organizations
-                    </i>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div className="right-section">
-        <img src={officeimg} alt="efw" />
-    </div>
-</div> */
-}
-
-{/* <div class="row align-items-md-stretch">
-                    <div class="col-md-6">
-                        <div class="h-100  p-5 rounded-3">
-                            <h1>Syntra Digital Agency</h1>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Et, natus soluta! Sequi
-                                quibusdam iure nihil. Soluta laudantium corrupti
-                                consequatur molestiae! Lorem ipsum dolor sit
-                                amet consectetur, adipisicing elit. Quam, iure.
-                            </p>
-
-                            <div
-                                className="sub-containers row"
-                                style={{ display:'flex',flexDirection:'row' }}
-                            >
-                                <div className="col-md-6 col-xs-12 sub-cont-left">
+            <div className="second-page-wrapper container-fluid">
+                <div className="row second-page-container">
+                    <div className="col-md-7 text-cont-wrapper">
+                        <div className="text-cont">
+                            <div className="top-cont col-md-12">
+                                <h1>Syntra Digital Agency</h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Et, natus soluta! Sequi
+                                    quibusdam iure nihil. Soluta laudantium
+                                    corrupti consequatur molestiae! Lorem ipsum
+                                    dolor sit amet consectetur, adipisicing
+                                    elit. Quam, iure.
+                                </p>
+                            </div>
+                            <div className="subcontainers row">
+                                <div className="left-cont col-md-6">
                                     <h3>Expert Team</h3>
                                     <p>
                                         Lorem ipsum dolor sit amet consectetur
@@ -88,7 +30,7 @@ export default SecondPage;
                                         velit non.
                                     </p>
                                 </div>
-                                <div className="col-md-6  col-xs-12 sub-cont-right">
+                                <div className="right-cont col-md-6">
                                     <h3>Business Anayltics</h3>
                                     <p>
                                         Lorem ipsum dolor sit amet consectetur
@@ -97,12 +39,32 @@ export default SecondPage;
                                         velit non.
                                     </p>
                                 </div>
+                                <div className="quote-container col-md-12">
+                                    <div className="quote-text col-md-11">
+                                        <p>
+                                            <i>
+                                                {" "}
+                                                We build thoughtful identities
+                                                and experiences to evalute and
+                                                empower organizations
+                                            </i>
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="h-100 p-5 rounded-3">
-                           <img src={officeimg}  alt="image"/>
-                        </div>
+                    <div className="col-md-5 img-cont">
+                        <img
+                            src={officeimg}
+                            className="img-fluid"
+                            alt="image"
+                        />
                     </div>
-                </div> */}
+                </div>
+            </div>
+        </>
+    );
+};
+
+export default SecondPage;
