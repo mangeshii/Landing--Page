@@ -1,11 +1,17 @@
 ul {
-    display: flex;
-    float: right;
-    margin-right: 10%;
+    overflow: hidden;
 }
 li {
+    float: right;
     list-style: none;
-    padding: 25px 50px;
+    text-align: center;
+    padding: 14px 16px;
     color: white;
-    font-size: 100%;
+    font-size: 20px;
+}
+.list4{
+    color:rgb(230, 173, 17)
+}
+.list3, .list2{
+    padding: 16px 16px;
 }

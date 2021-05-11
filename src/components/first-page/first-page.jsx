@@ -1,12 +1,22 @@
+import "./first-page.scss";
+import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 
-import "./first-page.css"
 const FirstPage = () => {
     return (
         <div>
-            <div className="wave water wave1"></div>
-            <div className="wave water wave2"></div>
-            <div className="wave water wave3"></div>
+            <div className="main-heading">
+                <h1>About Us</h1>
+                <ul>
+                    <li>About Us</li>
+                    <li><ArrowRightIcon /></li>
+                    <li>Home</li>
+                </ul>
+            </div>
+            <div className="wave water"></div>
+            <div className="wave water"></div>
+            <div className="wave water"></div>
         </div>
+
     );
 };
 

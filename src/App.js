@@ -1,25 +1,20 @@
 import "./App.css";
 import NavBar from "./components/navbar/nav";
 import FirstPage from "./components/first-page/first-page";
-import SecondPage from "./components/second-page/second-page"
+import SecondPage from "./components/second-page/second-page";
+// import ThirdPage from "./components/third-page/third-page";
 
 function App() {
     return (
         <>
-            <section>
+            <section className="main-wrapper">
                 <NavBar />
-
-                <div className="logo-container">
-                    <h1 className="logo">SYNTRA</h1>
-                </div>
-
-                <div className="main-heading-container">
-                    <h1 className="main-heading">About Us</h1>
-                </div>
-
                 <FirstPage />
+
+
             </section>
-            <SecondPage/>
+            <SecondPage />
+            {/* <ThirdPage /> */}
         </>
     );
 }
