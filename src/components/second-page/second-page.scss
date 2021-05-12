@@ -1,5 +1,6 @@
 .second-page-wrapper {
     height: 100%;
+    position: relative;
 }
 .img-cont {
     display: flex;
@@ -13,8 +14,6 @@
 }
 .text-cont {
     margin: 5% 10%;
-}
-.quote-container {
 }
 .quote-text {
     margin-top: 3%;
