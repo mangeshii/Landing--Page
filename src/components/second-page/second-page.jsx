@@ -6,6 +6,7 @@ const SecondPage = () => {
     return (
         <>
             <div className="second-page-wrapper container-fluid">
+
                 <div className="row second-page-container">
                     <div className="col-md-7 text-cont-wrapper">
                         <div className="text-cont">
@@ -62,7 +63,6 @@ const SecondPage = () => {
                         />
                     </div>
                 </div>
-
             </div>
         </>
     );

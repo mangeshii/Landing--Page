@@ -8,6 +8,9 @@ const ThirdPage = () => {
                 <div className="wave1 water1"></div>
                 <div className="wave1 water1"></div>
                 <div className="wave1 water1"></div>
+                <div className="wave2 water2"></div>
+                <div className="wave2 water2"></div>
+                <div className="wave2 water2"></div>
 
                 <div className="third-page-container container-fluid">
                     <div className="row">
