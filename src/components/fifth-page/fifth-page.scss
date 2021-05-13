@@ -1,12 +1,12 @@
 .fifth-page-wrapper {
     height: auto;
     background: linear-gradient(-55deg, #5e0ff3, #008ecc);
-    background-size: 400% 400%;
+    // background-size: 400% 400%;
     position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 15% 5%;
+    padding: 18rem 5rem;
     flex-wrap: wrap;
 }
 .wave3 {
@@ -28,13 +28,9 @@
     transform: rotateX(180deg);
     background-size: 1600px 100px;
 }
-.circle{
-
-}
-
 .circle1 {
-    height: 200px;
-    width: 200px;
+    height: 12rem;
+    width: 12rem;
     border-radius: 50%;
     background-color: white;
     display: flex;
@@ -44,7 +40,14 @@
 }
 
 .circle1 img{
-    height: 120px;
-    width: 120px;
+    height: 10rem;
+    width: 10rem;
     border-radius: 50%;
+}
+.circle h4{
+    font-size: 3rem;
+    color:rgb(230, 173, 17)
+}
+.circle p{
+    font-size: 1.5rem;
 }

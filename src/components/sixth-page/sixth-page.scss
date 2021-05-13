@@ -1,7 +1,51 @@
-.sixth-page-wrapper{
-    // height:100vh;
+.sixth-page-wrapper {
     display: flex;
-    padding: 10%;
+    padding: 13rem;
     position: relative;
+}
+.sixth-page-header {
+    text-align: center;
+}
+.sixth-page-header h1 {
+    font-size: 4rem;
+}
+.col3 {
+    text-align: left;
+    padding: 3rem;
+}
+.col3 h5,
+.sixth-page-header p {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+.col3 p {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+.btn {
+    margin-bottom: 2rem;
+    background-color: rgb(230, 173, 17);
+    border-radius: 20rem;
+    padding: 0.8rem 3rem;
+    color: white;
+    font-size: 1.5rem;
+}
 
+@media (max-width: 768px) {
+    .sixth-page-wrapper {
+        padding: 12rem;
+    }
+}
+@media (max-width: 450px) {
+    .sixth-page-wrapper {
+        padding: 5rem;
+    }
+}
+@media (min-width: 769px) and(max-width:1300px) {
+    .sixth-page-wrapper {
+        padding: 3rem;
+    }
+    .card {
+        margin: 0rem;
+    }
 }

@@ -1,24 +1,41 @@
+@mixin display-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .second-page-wrapper {
     height: 100%;
     position: relative;
 }
-.img-cont {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
+.img-cont,
 .text-cont-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include display-flex();
 }
+
 .text-cont {
-    margin: 5% 10%;
+    margin: 5rem 10rem;
+}
+.text-cont p {
+    font-size: 1.5rem;
+    color: #6c7a86;
 }
 .quote-text {
-    margin-top: 3%;
-    padding: 3% 7%;
-    border-radius: 20px;
+    margin-top: 3rem;
+    padding: 2rem 7rem;
+    border-radius: 2rem;
     background-color: rgb(235, 243, 245);
 }
 
+.top-cont h1 {
+    font-size: 3rem;
+}
+
+.left-cont h3,
+.right-cont h3 {
+    font-size: 2rem;
+}
+.left-cont,
+.right-cont {
+    padding-top: 1.5rem;
+}

@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import FirstPage from "./components/first-page/first-page";
 import SecondPage from "./components/second-page/second-page";
 import ThirdPage from "./components/third-page/third-page"
@@ -11,14 +11,14 @@ function App() {
     return (
         <>
             <section>
-                <FirstPage />
+            <FirstPage />
             </section>
-            {/* <SecondPage />
-            <ThirdPage/>
+             <SecondPage />
+             <ThirdPage/>
             <FourthPage/>
             <FifthPage/>
-            <SixthPage/>
-            <SeventhPage/> */}
+             <SixthPage/>
+            <SeventhPage/>
         </>
     );
 }

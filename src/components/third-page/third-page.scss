@@ -2,18 +2,16 @@ $mycolor: rgb(230, 173, 17);
 .third-page-wrapper {
     height: auto;
     background: linear-gradient(-55deg, #5e0ff3, #008ecc);
-    background-size: 400% 400%;
     position: relative;
 }
 .wave1 {
     position: absolute;
     width: 100%;
-    height: 100px;
+    height: 9rem;
     bottom: 0;
     left: 0;
     background: url(./wave.png);
-    // transform: rotateX(180deg);
-    background-size: 1200px 110px;
+    background-size: 1200px 115px;
 }
 .wave1.water1 {
     animation: animate 25s linear infinite;
@@ -65,11 +63,11 @@ $mycolor: rgb(230, 173, 17);
 
 .third-page-container {
     height: auto;
-    padding: 13% 10% 10% 12%;
+    padding: 15rem 10rem 14rem 12rem;
 }
 .cont2 img {
-    height: 400px;
-    width: 500px;
+    height: 40rem;
+    width: 50rem;
 }
 .cont0 {
     text-align: center;
@@ -80,6 +78,10 @@ $mycolor: rgb(230, 173, 17);
 }
 .cont0 h1 {
     color: $mycolor !important;
+    font-size: 4rem;
+}
+.row p {
+    font-size: 1.7rem;
 }
 .cont1,
 .cont3 {
@@ -90,14 +92,20 @@ $mycolor: rgb(230, 173, 17);
     color: white;
 }
 
-h4 {
-    color: $mycolor;
+.sub-cont1,
+.sub-cont2,
+.sub-cont3,
+.sub-cont4 {
+    h4 {
+        color: $mycolor;
+        font-size: 2.7rem;
+    }
 }
 
 .wave2 {
     position: absolute;
     width: 100%;
-    height: 100px;
+    height: 10rem;
     top: 0;
     left: 0;
     background: url(./wave.png);
@@ -109,4 +117,27 @@ h4 {
     animation-delay: 2s;
     top: 0px;
     z-index: 100;
+}
+
+@media (max-width: 768px) {
+    .sub-cont1,
+    .sub-cont2,
+    .sub-cont3,
+    .sub-cont4 {
+        word-break: break-all;
+    }
+    .cont0 .column{
+        text-align: start;
+        margin-bottom: 2rem;
+    }
+
+
+}
+
+@media (max-width: 400px) {
+    .third-page-container {
+        padding: 15rem 3rem 14rem 3rem;
+    }
+
+
 }
