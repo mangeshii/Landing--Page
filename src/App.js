@@ -13,12 +13,12 @@ function App() {
             <section>
                 <FirstPage />
             </section>
-            <SecondPage />
+            {/* <SecondPage />
             <ThirdPage/>
             <FourthPage/>
             <FifthPage/>
             <SixthPage/>
-            <SeventhPage/>
+            <SeventhPage/> */}
         </>
     );
 }

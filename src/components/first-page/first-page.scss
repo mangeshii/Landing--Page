@@ -7,23 +7,23 @@ $myColor: rgb(230, 173, 17);
     flex-direction: column;
 }
 .main-heading {
-    height: 40vh;
     text-align: center;
     @include display-flex();
     color: $myColor;
+    padding:5%
 }
 .main-heading h1 {
-    font-size: 4.5vw;
+    font-size: 4rem;
+    font-family: 'Mukta Vaani', sans-serif;
+    font-weight: bold;
 }
-.main-heading ul li {
-    display: inline;
-    box-sizing: border-box;
-    font-size: 1.5vw;
+.main-heading h6 {
+    display: inline-block;
+    font-size: 1.3rem;
     color: white;
     padding: 2px;
 
 }
-
 .wave {
     position: absolute;
     width: 100%;
