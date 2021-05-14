@@ -16,7 +16,7 @@ const SeventhPage = () => {
                 <div className="wave5 water5"></div>
                 <div className="footer row">
                     <div className="company-detail col-md-3 col1">
-                        <h1>SYNTRA</h1>
+                        <h1>XYZ</h1>
                         <h6>
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Explicabo quae reiciendis, cupiditate quaerat
@@ -43,7 +43,7 @@ const SeventhPage = () => {
                         </h6>
                         <h6>
                             <MailOutlineIcon />
-                            Syntra@support.com
+                            Xyz@support.com
                         </h6>
                     </div>
                     <div className="newsletter col-md-3 col1">

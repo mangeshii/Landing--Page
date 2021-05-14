@@ -10,7 +10,7 @@ const SecondPage = () => {
                     <div className="col-lg-7 text-cont-wrapper">
                         <div className="text-cont">
                             <div className="top-cont col-md-12">
-                                <h1>Syntra Digital Agency</h1>
+                                <h1>Xyz Digital Agency</h1>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur
                                     adipisicing elit. Et, natus soluta! Sequi

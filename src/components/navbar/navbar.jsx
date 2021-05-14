@@ -6,7 +6,7 @@ const NavBar = () => {
             <div class="container">
                 <div class="logo">
 
-                    <h1>SYNTRA</h1>
+                    <h1>XYZ</h1>
                 </div>
                 <nav>
                     <ul>
