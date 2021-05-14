@@ -15,7 +15,59 @@ const SeventhPage = () => {
                 <div className="wave5 water5"></div>
                 <div className="wave5 water5"></div>
                 <div className="footer row">
-                    <div className="companydetail col-md-3 col-sm-12 col-xs-12  col1">
+                    <div className="company-detail col-md-3 col1">
+                        <h1>SYNTRA</h1>
+                        <h6>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Explicabo quae reiciendis, cupiditate quaerat
+                            illum nam.
+                        </h6>
+                    </div>
+                    <div className="information col-md-3 col1">
+                        <h2>Information</h2>
+                        <h6>About Us</h6>
+                        <h6>Services</h6>
+                        <h6>Our Team</h6>
+                        <h6>Our Price</h6>
+                        <h6>Contact</h6>
+                    </div>
+                    <div className="contact-us col-md-3 col1">
+                        <h2>Contact Us</h2>
+                        <h6>
+                            <LocationOnIcon />
+                            280 Jefferson Street Port CharlottaFL 33952
+                        </h6>
+                        <h6>
+                            <PhoneIcon />
+                            +012 3456 584
+                        </h6>
+                        <h6>
+                            <MailOutlineIcon />
+                            Syntra@support.com
+                        </h6>
+                    </div>
+                    <div className="newsletter col-md-3 col1">
+                        <h2>Newsletter</h2>
+                        <h6>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit. Odit illo optio, eveniet aliquam cumque
+                            officia?
+                        </h6>
+                        <input type="text" placeholder="Your Email Address" />
+                    </div>
+                </div>
+                <hr style={{border:'2px solid white'}}/>
+            </div>
+        </>
+    );
+};
+export default SeventhPage;
+
+{
+    /* <div className="footer row"> */
+}
+{
+    /* <div className="companydetail col-md-3 col-sm-12 col-xs-12  col1">
                         <div className="company-logo">
                             <h1>SYNTRA</h1>
                             <h6>
@@ -41,10 +93,14 @@ const SeventhPage = () => {
                                 <div className="email social">
                                     <MailOutlineIcon />
                                 </div>
-                            </div> */}
-                        </div>
-                    </div>
-                    <div className="information col-md-3 col-sm-12 col-xs-12  col1">
+                            </div> */
+}
+{
+    /* </div> */
+}
+{
+    /* </div>
+                    <div className="information col-md-3 col-sm-12 col-xs-12 col1">
                         <h2>Information</h2>
                         <ul>
                             <li>About Us</li>
@@ -80,18 +136,14 @@ const SeventhPage = () => {
                     </div>
                 </div>
                 <hr style={{ color: "white" }} />
-                <div className="bottom-wrapper">
-                    <div className="bottom-left">
+                <div className="bottom-wrapper row">
+                    <div className="bottom-left col-md-6">
                         <h6>Copyright @ 2000 SYNTRA. All rights reserved</h6>
                     </div>
-                    <div className="bottom-right">
+                    <div className="bottom-right col-md-6">
                         <h6>Terms of Services</h6>
                         <h6>Privacy policy</h6>
                         <h6>Legal</h6>
                     </div>
-                </div>
-            </div>
-        </>
-    );
-};
-export default SeventhPage;
+                    </div> */
+}

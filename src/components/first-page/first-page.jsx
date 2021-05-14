@@ -7,7 +7,7 @@ const FirstPage = () => {
         <>
         <NavBar/>
         <div>
-            <div className="main-heading container">
+            <div className="main-heading container-fluid">
                 <h1>About Us</h1>
                     <div className="subnav">
                     <h6>Home</h6>

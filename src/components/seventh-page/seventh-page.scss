@@ -65,98 +65,141 @@
         background-position-x: -500px;
     }
 }
-.footer {
+
+.footer{
     color: white;
 }
-.companydetail {
-    display: flex;
-    flex: 2;
+
+.col1{
+padding:2rem
 }
-.company-logo {
-    padding: 0rem 0rem 0rem 2rem;
-}
-.company-logo h6 {
+.company-detail h6,.information h6,.contact-us h6,.newsletter h6{
     font-size: 1.4rem;
     font-weight: 300;
     line-height: 2rem;
 }
-.social-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-}
-.social {
-    height: 4rem;
-    width: 4rem;
-    background-color: rgb(230, 173, 17);
-    border-radius: 50%;
-    margin: 1rem;
-}
-.information {
-    flex: 1;
-}
-.information h2,.contactus h2,.newsletter h2{
-    color: rgb(230, 173, 17);
-    font-size: 2.5rem;
-}
-.information ul {
-    display: flex;
-    flex-direction: column;
-}
-.information ul li,.contactus h6, .newsletter h6{
-    padding: 0%;
-    font-weight: 300;
-    font-size: 1.4rem;
+.information{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+
+
 }
 
-.contactus {
-    display: flex;
-    flex: 2;
+.information h2,.contact-us h2,.newsletter h2{
+    color:rgb(230, 173, 17)
 }
 
-.newsletter {
-    display: flex;
-    flex: 2;
-}
-.information {
-    display: flex;
-    flex-direction: column;
-}
-.information li {
-    list-style: none;
-    color: white;
-}
-.contactus {
-    display: flex;
-    flex-direction: column;
-}
-.newsletter {
-    display: flex;
-    flex-direction: column;
-}
 input {
-    border-radius: 30px;
-    padding: 1rem;
-    border: none;
-    margin-top: 1rem;
+        border-radius: 30px;
+        padding: 1rem;
+        border: none;
+        margin-top: 1rem;
 }
-.bottom-wrapper {
-    display: flex;
-    justify-content: space-between;
-    color:white;
 
-}
-.bottom-right h6,.bottom-left h6{
-    font-size: 1.5rem;
-    font-weight: 300;
-}
-.bottom-right {
-    display: flex;
-}
-.bottom-right h6 {
-    margin-left: 10px;
-}
-@media (max-width:1400px){
-    .social-wrapper{
-        display: none;
-    }
-}
+
+// .company-logo h6 {
+//     font-size: 1.4rem;
+//     font-weight: 300;
+//     line-height: 2rem;
+// }
+// .social-wrapper {
+//     display: flex;
+//     flex-wrap: wrap;
+// }
+// .social {
+//     height: 4rem;
+//     width: 4rem;
+//     background-color: rgb(230, 173, 17);
+//     border-radius: 50%;
+//     margin: 1rem;
+// }
+// .information {
+//     flex: 1;
+// }
+// .information h2,
+// .contactus h2,
+// .newsletter h2 {
+//     color: rgb(230, 173, 17);
+//     font-size: 2.5rem;
+// }
+// .information ul {
+//     display: flex;
+//     flex-direction: column;
+// }
+// .information ul li,
+// .contactus h6,
+// .newsletter h6 {
+//     padding: 0%;
+//     font-weight: 300;
+//     font-size: 1.4rem;
+// }
+
+// .contactus {
+//     display: flex;
+//     flex: 2;
+// }
+
+// .newsletter {
+//     display: flex;
+//     flex: 2;
+// }
+// .information {
+//     display: flex;
+//     flex-direction: column;
+// }
+// .information li {
+//     list-style: none;
+//     color: white;
+// }
+// .contactus {
+//     display: flex;
+//     flex-direction: column;
+// }
+// .newsletter {
+//     display: flex;
+//     flex-direction: column;
+// }
+// input {
+//     border-radius: 30px;
+//     padding: 1rem;
+//     border: none;
+//     margin-top: 1rem;
+// }
+
+// .bottom-wrapper {
+//     display: flex;
+//     justify-content: space-between;
+//     color: white;
+//     // flex-direction: column;
+// }
+// .bottom-right {
+//     display: flex;
+//     justify-content: flex-end;
+//     flex-wrap: wrap;
+// }
+// .bottom-right h6,
+// .bottom-left h6 {
+//     font-size: 1.5rem;
+//     font-weight: 300;
+// }
+// .bottom-right h6 {
+//     margin-right: 10px;
+// }
+// @media (max-width: 1400px) {
+//     .social-wrapper {
+//         display: none;
+//     }
+// }
+
+// @media (max-width: 768px) {
+//     .bottom-wrapper {
+//         display: flex;
+//         flex-direction: column;
+//     }
+//     .bottom-right {
+//         display: flex;
+//         justify-content: flex-start;
+//     }
+// }
